@@ -2,13 +2,13 @@
 layout: post
 title:  "网络--TCP、UDP与HTTP的区别"
 categories: java基础
-tags:  网络 TCP/IP HTTP
+tags:  网络 TCP/IP
 author: watermelon
 ---
 * content
 {:toc}
 
-![高并发](https://images.gitee.com/uploads/images/2019/0108/190202_93d4a518_1210188.jpeg)
+![TCP、UDP与HTTP的区别](https://images.gitee.com/uploads/images/2019/0127/152950_b45253c6_1210188.jpeg)
 ## 前言
 WHY
 
