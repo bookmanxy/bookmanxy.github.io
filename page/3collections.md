@@ -15,11 +15,13 @@ type: page
 * 架构师指南：[微信公众号](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI0MzI1Mjg5Nw==#wechat_redirect)
 * Java架构资源分享：[Java架构资源分享](https://my.oschina.net/u/3779583)
 * 搜云库技术团队：[搜云库技术团队](https://segmentfault.com/u/souyunku)
+* 插画师：[插画师](http://leonod.zcool.com.cn/)
 
 ## 优质文章
 * [架构师带你玩转分布式锁](https://mp.weixin.qq.com/s/tjAG2ZAoUutqaKHnF7v3lA)
 * [拜托！面试请不要再问我Spring Cloud底层原理](https://mp.weixin.qq.com/s/7cIpSV0dHV5jHdxF4Wdtgw)
 * [github page搭建](https://blog.csdn.net/xudailong_blog/article/details/78762262)
+* [作为一名合格的JAVA程序员需要点亮那些技能树](https://blog.52itstyle.com/archives/514/)
 
 ## mark 开源
 * [分布式秒杀系统](https://gitee.com/52itstyle/spring-boot-seckill)
