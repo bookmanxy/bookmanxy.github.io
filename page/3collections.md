@@ -15,6 +15,7 @@ type: page
 * 架构师指南：[微信公众号](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI0MzI1Mjg5Nw==#wechat_redirect)
 * Java架构资源分享：[Java架构资源分享](https://my.oschina.net/u/3779583)
 * 搜云库技术团队：[搜云库技术团队](https://segmentfault.com/u/souyunku)
+* best.lei：[博客园](https://www.cnblogs.com/zhanglei93/)
 * 插画师：[插画师](http://leonod.zcool.com.cn/)
 
 ## 优质文章
