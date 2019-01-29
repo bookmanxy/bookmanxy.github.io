@@ -26,7 +26,8 @@ author: watermelon
 * 2：然后insert into 几条语句  
 * 3：使用truncate 清空表的数据  
 * 4：再insert into 几条语句，观察下此时的自增主键从1开始  
-* 5：恢复到第一次请空前的库表数据
+* 5：创建一个备份副表
+* 6：恢复到第一次请空前的库表数据
 
 ### **3：操作过程**
 ```sql
@@ -73,10 +74,22 @@ INSERT INTO `tb_user` ( `username`, `mobile`, `password`, `create_time`) VALUES
 ![4](https://images.gitee.com/uploads/images/2019/0129/164004_b788077d_1210188.jpeg)
   
 ```sql
-* 5：恢复到第一次请空前的库表数据
+5:创建一个备份副表
+CREATE TABLE IF NOT EXISTS `re_user` (
+  `user_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) NOT NULL COMMENT '用户名',
+  `mobile` varchar(20) NOT NULL COMMENT '手机号',
+  `password` varchar(64) DEFAULT NULL COMMENT '密码',
+  `create_time` datetime DEFAULT NULL COMMENT '创建时间',
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='异常删除的备份用户';
+```
+
+```sql
+* 6：恢复到第一次请空前的库表数据
 show binary logs
 ```
-注：如果遇到了“You are not using binary logging”，请移步：   [mysql的binary logs日志](https://www.jb51.net/article/65767.htm)  
+注：如果遇到了“You are not using binary logging”，请移步：   [mysql的binary logs日志](https://bookmanxy.github.io/2019/01/29/mysql%E7%9A%84binary-logs%E6%97%A5%E5%BF%97/)  
 
 引用：    
  [看这里：《MySQL中truncate误操作后的数据恢复案例》](https://www.jb51.net/article/65767.htm)  
