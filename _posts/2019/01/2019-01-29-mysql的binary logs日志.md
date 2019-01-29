@@ -18,7 +18,7 @@ author: watermelon
 
 
 ### **0：binary log是什么**  
-与大多数关系型数据库，日志文件是MySQL数据库的一个重要组成部分。MySQL有几种不同的日志文件，通常包括错误日志文件，二进制日志，通用日志。慢查询日志，等等。  
+与大多数关系型数据库，日志文件是MySQL数据库的一个重要组成部分。MySQL有几种不同的日志文件，通常包括错误日志文件，二进制日志，通用日志,慢查询日志，等等。  
 这些日志能够帮助我们定位mysqld内部发生的事件，数据库性能故障。记录数据的变更历史，用户恢复数据库等等。  
 
 Binary log 用来记录数据库中发生的修改情况，比如数据的修改、表格的创建及修改等，它既可以记录涉及修改的SQL，也可以记录数据修改的行变化记录，同时也记录了执行时间。  
@@ -31,6 +31,7 @@ Binary log 用来记录数据库中发生的修改情况，比如数据的修改
 在实践truncate 清空表的数据  并要恢复时遇到了个“You are not using binary logging”的问题。
 有可能是未打开日志模式。执行语句
 ```sql
+//查询
 show variables like 'log_bin'
 ```
 ![showvariables](https://images.gitee.com/uploads/images/2019/0129/165106_672bbd72_1210188.jpeg)
