@@ -21,3 +21,6 @@ author: watermelon
 ![2](https://images.gitee.com/uploads/images/2019/0130/133915_4c5d65d2_1210188.jpeg)
 ![3](https://images.gitee.com/uploads/images/2019/0130/133925_6c528694_1210188.jpeg)
 ![4](https://images.gitee.com/uploads/images/2019/0130/133935_c14893c7_1210188.jpeg)
+
+案例中演示的地址：   
+ [《java面试 》](https://www.processon.com/view/5a9ff495e4b0415c56bb543f) 
